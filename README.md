@@ -51,52 +51,52 @@ User → Streamlit UI → Gemini API → SQL Generator → SQLite Database → R
 ---
 ## ⚙ Installation
 
-## 1️⃣ Clone repository
+### 1️⃣ Clone repository
 ```
 git clone https://github.com/your-username/intellisql.git
 cd intellisql
 ```
 
-## 2️⃣ Create virtual environment
+### 2️⃣ Create virtual environment
 ```
 python -m venv venv
 source venv/bin/activate
 ```
-## 3️⃣ Install dependencies
+### 3️⃣ Install dependencies
 ```
 pip install -r requirements.txt
 ```
-## 4️⃣ Run application
+### 4️⃣ Run application
 ```
 streamlit run app.py
 ```
-##📊 Performance Metrics
+## 📊 Performance Metrics
 
 * Query Accuracy: 95%
 * Average Response Time: 2.8 seconds
 * Confidence Score: 93%
 * Pass Rate (Testing): 96%
 ---
-# 🔐 Security Features
+## 🔐 Security Features
 
 * SQL injection prevention
 * Query validation before execution
 * Secure API key management via environment variables
 * Error handling and safe query execution
 ---
-# 📈 Results
+## 📈 Results
 
 The IntelliSQL system successfully converts natural language queries into accurate SQL statements and retrieves data efficiently, improving database accessibility and user productivity.
 
 ---
-# ⚠ Known Issues
+## ⚠ Known Issues
 
 * Slight delay in complex JOIN queries
 * Ambiguous natural language may reduce accuracy
 * Currently supports SQLite only
 * Requires internet connectivity for Gemini API
 ----
-# 🚀 Future Scope
+## 🚀 Future Scope
 
 * Multi-database support (MySQL, PostgreSQL)
 * Conversational query refinement
