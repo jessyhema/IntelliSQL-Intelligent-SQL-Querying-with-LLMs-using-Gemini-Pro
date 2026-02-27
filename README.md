@@ -1,9 +1,13 @@
 # 🚀 IntelliSQL: Intelligent SQL Querying with LLMs Using Gemini Pro
----
 
 ## 📌 Overview
 
-__IntelliSQL__ is an AI-powered web application that converts natural language queries into optimized SQL statements using __Google Gemini Pro(LLM)__. The system enables users to interact with databases effortlessly without requiring deep SQL knowledge.Users can type questions in plain English (e.g., “Show students who scored above 80 marks”), and IntelliSQL automatically generates, validates, and executes the corresponding SQL query, returning accurate results instantly.
+__IntelliSQL__ is an AI-powered web application that converts natural language queries into optimized SQL statements using __Google Gemini Pro(LLM)__. The system enables users to interact with databases effortlessly without requiring deep SQL knowledge.
+
+Users can type questions in plain English 
+(e.g., “Show students who scored above 80 marks”), and 
+IntelliSQL automatically generates, validates, and 
+executes the corresponding SQL query, returning accurate results instantly.
 
 ---
 ## 🎯 Objectives
