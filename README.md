@@ -1,8 +1,8 @@
-# 🚀 *IntelliSQL: Intelligent SQL Querying with LLMs Using Gemini Pro*
+# 🚀 IntelliSQL: Intelligent SQL Querying with LLMs Using Gemini Pro
+---
+## 📌 Overview
 
-## 📌 *Overview*
-
-###IntelliSQL is an AI-powered web application that converts natural language queries into optimized SQL statements using Google Gemini Pro (LLM). The system enables users to interact with databases effortlessly without requiring deep SQL knowledge.Users can type questions in plain English (e.g., “Show students who scored above 80 marks”), and IntelliSQL automatically generates, validates, and executes the corresponding SQL query, returning accurate results instantly.
+### IntelliSQL is an AI-powered web application that converts natural language queries into optimized SQL statements using Google Gemini Pro (LLM). The system enables users to interact with databases effortlessly without requiring deep SQL knowledge.Users can type questions in plain English (e.g., “Show students who scored above 80 marks”), and IntelliSQL automatically generates, validates, and executes the corresponding SQL query, returning accurate results instantly.
 
 # 🎯 Objectives
 
@@ -21,7 +21,7 @@
 * Error handling and SQL injection prevention
 * Performance monitoring dashboards (Power BI & Tableau)
 
- # 🧠 * Use Cases *
+ # 🧠  Use Cases 
 
 * Data exploration for analysts and researchers
 * Educational SQL learning tool
@@ -41,31 +41,32 @@
 | Libraries            |	Pandas, NumPy, SQLAlchemy |
 | Development Tools    |	VS Code, Git              |
 
-# 🏗 *Architecture*
+# 🏗 Architecture
 
 User → Streamlit UI → Gemini API → SQL Generator → SQLite Database → Result Display
 
-# ⚙ Installation
+## ⚙ Installation
 
-# 1️⃣ Clone repository
-
+## 1️⃣ Clone repository
+```
 git clone https://github.com/your-username/intellisql.git
 cd intellisql
+```
 
-# 2️⃣ Create virtual environment
-
+## 2️⃣ Create virtual environment
+```
 python -m venv venv
 source venv/bin/activate
-
-# 3️⃣ Install dependencies
-
+```
+## 3️⃣ Install dependencies
+```
 pip install -r requirements.txt
-
-# 4️⃣ Run application
-
+```
+## 4️⃣ Run application
+```
 streamlit run app.py
-
-# 📊 Performance Metrics
+```
+##📊 Performance Metrics
 
 * Query Accuracy: 95%
 * Average Response Time: 2.8 seconds
