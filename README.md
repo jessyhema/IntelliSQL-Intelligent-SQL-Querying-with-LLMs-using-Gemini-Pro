@@ -53,6 +53,7 @@ executes the corresponding SQL query, returning accurate results instantly.
 User → Streamlit UI → Gemini API → SQL Generator → SQLite Database → Result Display
 
 ---
+
 ## ⚙ Installation
 
 ### 1️⃣ Clone repository
@@ -74,6 +75,7 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
+
 ## 📊 Performance Metrics
 
 * Query Accuracy: 95%
@@ -81,6 +83,7 @@ streamlit run app.py
 * Confidence Score: 93%
 * Pass Rate (Testing): 96%
 ---
+
 ## 🔐 Security Features
 
 * SQL injection prevention
