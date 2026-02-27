@@ -6,7 +6,7 @@
 __IntelliSQL__ is an AI-powered web application that converts natural language queries into optimized SQL statements using __Google Gemini Pro(LLM)__. The system enables users to interact with databases effortlessly without requiring deep SQL knowledge.Users can type questions in plain English (e.g., “Show students who scored above 80 marks”), and IntelliSQL automatically generates, validates, and executes the corresponding SQL query, returning accurate results instantly.
 
 ---
-# 🎯 Objectives
+## 🎯 Objectives
 
 * Simplify database interaction for non-technical users
 * Automate SQL query generation using Generative AI
@@ -14,7 +14,7 @@ __IntelliSQL__ is an AI-powered web application that converts natural language q
 * Improve productivity and decision-making
 * Demonstrate real-world integration of LLMs with databases
 ---
-# ⭐ Features
+## ⭐ Features
 * Natural Language → SQL conversion using Gemini Pro
 * Prompt engineering for accurate query generation
 * Secure SQL validation and execution
@@ -23,7 +23,7 @@ __IntelliSQL__ is an AI-powered web application that converts natural language q
 * Error handling and SQL injection prevention
 * Performance monitoring dashboards (Power BI & Tableau)
 ---
- # 🧠  Use Cases 
+ ## 🧠  Use Cases 
 
 * Data exploration for analysts and researchers
 * Educational SQL learning tool
@@ -31,7 +31,7 @@ __IntelliSQL__ is an AI-powered web application that converts natural language q
 * Business intelligence support
 * AI-assisted database interaction
 ---
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 
 | Category             | Technology                 |
 |----------------------|----------------------------|
@@ -44,7 +44,7 @@ __IntelliSQL__ is an AI-powered web application that converts natural language q
 | Development Tools    |	VS Code, Git              |
 
 ---
-# 🏗 Architecture
+## 🏗 Architecture
 
 User → Streamlit UI → Gemini API → SQL Generator → SQLite Database → Result Display
 
